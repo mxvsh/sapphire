@@ -50,7 +50,7 @@ Output JSON:
 - [x] Basic `map` functionality for transforming JSON.
 - [x] Real-time output for instant feedback.
 - [x] JSON validation with clear error messages.
-- [ ] **Export Options**: Support exporting data in JSON, CSV, and XML formats.
+- [x] **Export Options**: Support exporting data in JSON, CSV, and XML formats.
 - [ ] **Filter Support**: Add `filter` functionality to refine data.
 - [ ] **Reduce Support**: Enable `reduce` for aggregations and summaries.
 - [ ] **Chaining Transformations**: Allow multiple operations (`map`, `filter`, `reduce`) in one workflow.

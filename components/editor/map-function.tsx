@@ -1,7 +1,13 @@
 'use client';
 
 import React from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 
@@ -21,6 +27,9 @@ const MapFunctionEditor: React.FC<MapFunctionEditorProps> = ({
     <Card>
       <CardHeader>
         <CardTitle className="text-lg">Function</CardTitle>
+        <CardDescription>
+          Enter a function that will be used to transform the data.
+        </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col gap-4">
         <Textarea

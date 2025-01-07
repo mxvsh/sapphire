@@ -25,7 +25,7 @@ const JsonInput: React.FC<JsonInputProps> = ({ value, onChange, error }) => {
       </CardHeader>
       <CardContent>
         <Textarea
-          className="w-full h-52 p-2 font-mono text-sm border rounded resize-none"
+          className="w-full h-48 p-2 font-mono text-sm border rounded resize-none"
           value={value}
           onChange={e => onChange(e.target.value)}
           placeholder="Paste your JSON array here..."
