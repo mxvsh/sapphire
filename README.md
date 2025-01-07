@@ -1,6 +1,8 @@
-# Sapphire
+<p align="center"><img width="80px" src="public/logo.png"></p>
+<h3 align="center">Sapphire</h3>
+<p align="center">Transform and shape your data effortlessly.</p>
 
-**Transform and shape your data effortlessly.**
+---
 
 Sapphire is a web-based tool that allows you to upload or paste JSON, write JavaScript `map` functions, and instantly transform your data into any desired format. Whether you're a developer, data analyst, or anyone working with structured data, Sapphire provides a seamless and efficient way to manipulate your data.
 
