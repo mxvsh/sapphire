@@ -44,3 +44,22 @@ Output JSON:
 ```json
 [2, 3, 4, 5]
 ```
+
+## Roadmap
+
+- [x] Basic `map` functionality for transforming JSON.
+- [x] Real-time output for instant feedback.
+- [x] JSON validation with clear error messages.
+- [ ] **Export Options**: Support exporting data in JSON, CSV, and XML formats.
+- [ ] **Filter Support**: Add `filter` functionality to refine data.
+- [ ] **Reduce Support**: Enable `reduce` for aggregations and summaries.
+- [ ] **Chaining Transformations**: Allow multiple operations (`map`, `filter`, `reduce`) in one workflow.
+- [ ] **Pre-Built Templates**: Common transformations (e.g., flatten arrays, rename keys).
+- [ ] **Error Highlighting**: Debugging support in the editor with detailed error messages.
+- [ ] **Preview Modes**: Visualize data in table or tree formats.
+- [ ] **Custom Reducers and Grouping**: Aggregate and group data by fields.
+- [ ] **Multi-Format Support**: Handle data formats like XML, YAML, and CSV.
+
+---
+
+Stay tuned for updates and new features! Contributions and feedback are always welcome.
